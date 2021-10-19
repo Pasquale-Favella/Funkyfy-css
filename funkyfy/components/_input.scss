@@ -1,0 +1,31 @@
+.input-group{
+    @extend .hover-in-shadow;
+    @extend .outer-shadow;
+
+    margin: 0 0 25px;
+    transition: all 0.3s ease;
+    border-radius: $base-border-radius;
+
+    &:after{
+        border-radius: $base-border-radius;
+    }
+
+    .input-control{
+        height: 45px;
+        display: block;
+        width: 100%;
+        border-radius: $base-border-radius;
+        border: none;
+        background-color: transparent;
+        font-size: $base-font-size;
+        padding: 0 15px;
+        color: $text-black-700;
+       
+    }
+
+    textarea.input-control{
+        padding-top: 15px;
+        min-height: 100px;
+        resize: vertical;
+    }
+}

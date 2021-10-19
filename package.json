@@ -1,0 +1,16 @@
+{
+  "name": "funkyfy",
+  "version": "0.0.1",
+  "description": "Funkyfy css framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Favella Pasquale",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.43.2"
+  }
+}

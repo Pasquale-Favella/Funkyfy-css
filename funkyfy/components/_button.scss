@@ -1,0 +1,44 @@
+.btn{
+    padding: 5px 20px;
+    font-size: $base-font-size;
+    font-weight: 500;
+    background-color: transparent;
+    line-height: $base-line-height;
+    cursor: pointer;
+    border-radius: $base-border-radius;
+    transition: all 0.3s ease;
+    display: inline-block;
+    border: none;
+
+    @extend .hover-in-shadow;
+    @extend .outer-shadow;
+
+    &:after{
+        border-radius: $base-border-radius;
+    }
+
+    &-primary {
+        @extend .btn;
+        color: $primary;
+    }
+
+    &-secondary {
+        @extend .btn;
+        color: $secondary;
+    }
+
+    &-danger {
+        @extend .btn;
+        color: $error;
+    }
+
+    &-md {
+        @extend .btn;
+        padding: 7px 20px;
+    }
+
+    &-lg {
+        @extend .btn;
+        padding: 10px 25px;
+    }
+}
